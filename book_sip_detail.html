@@ -4,7 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>책 한 잔 하실래요?</title>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
 <style>
   :root {
     --wine: #6B1F2A;
@@ -23,7 +26,7 @@
 
   body {
     background: var(--cream);
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Pretendard', sans-serif;
     color: var(--ink);
     overflow-x: hidden;
   }
@@ -62,7 +65,7 @@
   }
 
   .sidebar-logo {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 0.25em;
@@ -72,7 +75,7 @@
   }
 
   .sidebar-title {
-    font-family: 'Noto Serif KR', serif;
+    font-family: 'Pretendard', sans-serif;
     font-size: 26px;
     font-weight: 700;
     color: var(--white);
@@ -83,7 +86,7 @@
   }
 
   .sidebar-subtitle {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'DM Serif Display', serif;
     font-size: 14px;
     font-style: italic;
     color: rgba(201,168,76,0.8);
@@ -138,7 +141,7 @@
   }
 
   .section-number {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 80px;
     font-weight: 300;
     color: rgba(107,31,42,0.08);
@@ -151,8 +154,8 @@
 
   .section-tag {
     display: inline-block;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 11px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 17px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
     color: var(--gold);
@@ -162,7 +165,7 @@
   }
 
   .section-heading {
-    font-family: 'Noto Serif KR', serif;
+    font-family: 'Pretendard', sans-serif;
     font-size: 36px;
     font-weight: 700;
     color: var(--wine-deep);
@@ -201,7 +204,7 @@
   }
 
   .hero-eyebrow {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 13px;
     letter-spacing: 0.4em;
     text-transform: uppercase;
@@ -212,7 +215,7 @@
   }
 
   .hero-title {
-    font-family: 'Noto Serif KR', serif;
+    font-family: 'Pretendard', sans-serif;
     font-size: clamp(42px, 5vw, 72px);
     font-weight: 700;
     color: var(--white);
@@ -228,7 +231,7 @@
   }
 
   .hero-sub {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'DM Serif Display', serif;
     font-size: 20px;
     font-style: italic;
     color: rgba(255,255,255,0.55);
@@ -253,7 +256,7 @@
     border-radius: 100px;
     font-size: 13px;
     color: rgba(255,255,255,0.75);
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Pretendard', sans-serif;
     font-weight: 300;
     letter-spacing: 0.03em;
   }
@@ -289,7 +292,7 @@
 
   /* ── 철학 섹션 ── */
   .philosophy-quote {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'DM Serif Display', serif;
     font-size: 28px;
     font-style: italic;
     color: var(--wine);
@@ -328,7 +331,7 @@
 
   .value-card-icon { font-size: 28px; margin-bottom: 12px; }
   .value-card-title {
-    font-family: 'Noto Serif KR', serif;
+    font-family: 'Pretendard', sans-serif;
     font-size: 14px;
     font-weight: 700;
     color: var(--wine-deep);
@@ -350,7 +353,7 @@
   }
 
   .info-block-title {
-    font-family: 'Noto Serif KR', serif;
+    font-family: 'Pretendard', sans-serif;
     font-size: 16px;
     font-weight: 700;
     color: var(--wine);
@@ -433,7 +436,7 @@
     justify-content: center;
     font-size: 9px;
     color: var(--gold);
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-weight: 600;
     margin-top: 24px;
     z-index: 1;
@@ -463,11 +466,11 @@
     color: var(--gold);
     text-transform: uppercase;
     margin-bottom: 4px;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Space Grotesk', sans-serif;
   }
 
   .timeline-title {
-    font-family: 'Noto Serif KR', serif;
+    font-family: 'Pretendard', sans-serif;
     font-size: 15px;
     font-weight: 700;
     color: var(--wine-deep);
@@ -482,7 +485,7 @@
   }
 
   .timeline-time {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 22px;
     color: rgba(107,31,42,0.15);
     font-weight: 300;
@@ -499,7 +502,7 @@
     color: var(--muted);
     line-height: 1.8;
     font-style: italic;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'DM Serif Display', serif;
     font-size: 15px;
   }
 
@@ -532,7 +535,7 @@
 
   .drink-card-emoji { font-size: 40px; margin-bottom: 16px; }
   .drink-card-title {
-    font-family: 'Noto Serif KR', serif;
+    font-family: 'Pretendard', sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: var(--gold-light);
@@ -592,14 +595,14 @@
   }
 
   .ppt-num {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 10px;
     letter-spacing: 0.2em;
     color: var(--gold);
     margin-bottom: 8px;
   }
   .ppt-name {
-    font-family: 'Noto Serif KR', serif;
+    font-family: 'Pretendard', sans-serif;
     font-size: 11px;
     color: var(--white);
     font-weight: 600;
@@ -624,7 +627,7 @@
   }
 
   .ppt-detail-num {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 32px;
     font-weight: 300;
     color: rgba(107,31,42,0.2);
@@ -638,7 +641,7 @@
   }
 
   .ppt-detail-title {
-    font-family: 'Noto Serif KR', serif;
+    font-family: 'Pretendard', sans-serif;
     font-size: 14px;
     font-weight: 700;
     color: var(--wine-deep);
@@ -660,7 +663,7 @@
   }
 
   .closing-quote {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'DM Serif Display', serif;
     font-size: clamp(24px, 3vw, 40px);
     font-style: italic;
     color: rgba(255,255,255,0.85);
@@ -680,7 +683,7 @@
   }
 
   .closing-badge-title {
-    font-family: 'Noto Serif KR', serif;
+    font-family: 'Pretendard', sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: var(--white);
@@ -698,12 +701,24 @@
     margin: 40px auto;
   }
 
+  /* ── 섹션 서브노트 ── */
+  .section-heading-note {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--muted);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: -28px;
+    margin-bottom: 40px;
+  }
+
   /* ── CTA 버튼 ── */
   .cta-btn {
     display: inline-block;
     background: var(--gold);
     color: var(--wine-deep);
-    font-family: 'Noto Serif KR', serif;
+    font-family: 'Pretendard', sans-serif;
     font-size: 15px;
     font-weight: 700;
     padding: 16px 44px;
@@ -740,7 +755,7 @@
   }
   .target-text strong {
     display: block;
-    font-family: 'Noto Serif KR', serif;
+    font-family: 'Pretendard', sans-serif;
     font-size: 14px;
     font-weight: 700;
     color: var(--wine-deep);
@@ -765,7 +780,7 @@
     border-top: 2px solid var(--gold);
   }
   .faq-q {
-    font-family: 'Noto Serif KR', serif;
+    font-family: 'Pretendard', sans-serif;
     font-size: 15px;
     font-weight: 700;
     color: var(--wine-deep);
@@ -820,14 +835,14 @@
     <section id="hero">
       <div class="hero-eyebrow">소셜 북클럽 · 합정 · Seoul</div>
       <h1 class="hero-title">책 한 잔<br><span>하실래요?</span></h1>
-      <p class="hero-sub">책 한 권을 다 읽지 않아도 됩니다.<br>당신의 취향 하나면 충분합니다.</p>
+      <p class="hero-sub">책 한 권을 다 읽지 않아도 됩니다.<br> 당신의 취향 하나면 충분합니다.</p>
       <div class="hero-pills">
         <span class="pill">📍 합정역 도보 2분</span>
         <span class="pill">⏱ 총 2시간</span>
         <span class="pill">🙈 나이 비공개</span>
         <span class="pill">🥃 음료 포함</span>
       </div>
-      <a href="#" class="cta-btn">신청하기 →</a>
+      <!--<a href="#" class="cta-btn">신청하기 →</a>-->
     </section>
 
     <!-- 01 모임 소개 -->
@@ -837,19 +852,19 @@
       <h2 class="section-heading">이런 모임이에요</h2>
 
       <p class="body-text">
-        새로운 사람을 만나고 싶은데, 막상 <span class="highlight-text">'자연스럽게 대화가 이어지는 자리'</span>는 찾기 어렵습니다.
-        소개팅 앱은 피곤하고, 독서모임은 문턱이 높죠.
+        새로운 사람을 만나고 싶은데, 막상 <span class="highlight-text">자기소개만 스무 번 반복하고 흐지부지 끝나는 자리</span>에 지친 적 있지 않으신가요.
+        직함도 나이도 아무 상관 없는 사람들끼리, 왜 이렇게 할 말이 없을까요.
       </p>
 
       <div class="philosophy-quote">
-        "책 한 잔 하실래요?"는 그 사이 어딘가에 있습니다.
+        "대화의 밀도"가 문제입니다.
       </div>
 
       <p class="body-text">
-        가져올 콘텐츠는 무엇이든 좋습니다. 책 한 권, 영화 한 편, 유튜브 영상 하나,
-        마음에 꽂힌 글귀 하나. 중요한 건 그 콘텐츠를 매개로
-        <span class="highlight-text">진짜 내 이야기를 꺼내고,</span>
-        맞은편 사람의 세계를 엿보는 경험입니다.
+        책이든, 영화든, 유튜브든 — 콘텐츠 하나가 있으면 대화는 달라집니다.
+        공통의 재료가 생기면 <span class="highlight-text">자연스럽게 진짜 이야기가 나오고,</span>
+        맞은편 사람의 세계가 궁금해집니다.
+        기를 빨리는 대신, 에너지를 채워가는 만남.
       </p>
 
       <p class="body-text">
@@ -858,14 +873,14 @@
 
       <!-- 이미지 -->
       <div class="img-placeholder">
-        <img src="image/book-total.png" alt="모임 분위기 이미지" style="width:100%; border-radius:4px; display:block;">
+        <img src="image/book-seven-people.png" alt="모임 분위기 이미지" style="width:100%; border-radius:4px; display:block;">
       </div>
 
       <div class="value-cards">
         <div class="value-card">
           <div class="value-card-icon">🔗</div>
           <div class="value-card-title">연결이 목적</div>
-          <div class="value-card-desc">독서 완독이 목적이 아니라, 사람과 사람의 연결이 목적인 모임</div>
+          <div class="value-card-desc">사람과 사람의 연결이 목적인 모임, 더 많은 생각을 나눠요</div>
         </div>
         <div class="value-card">
           <div class="value-card-icon">🎭</div>
@@ -884,7 +899,7 @@
     <section id="target">
       <div class="section-number">02</div>
       <span class="section-tag">For You</span>
-      <h2 class="section-heading">이런 분께<br>추천해요</h2>
+      <h2 class="section-heading">이런 분께 추천해요</h2>
 
       <div class="target-list">
         <div class="target-item">
@@ -926,7 +941,7 @@
 
       <!-- 이미지 -->
       <div class="img-placeholder">
-        <img src="image/book-table.png" alt="장소 or 공간 이미지" style="max-width:100%; border-radius:4px; display:block;">
+        <img src="image/book-table-long.png" alt="장소 or 공간 이미지" style="max-width:100%; border-radius:4px; display:block;">
       </div>
 
       <div class="info-grid">
@@ -954,7 +969,8 @@
     <section id="timeline">
       <div class="section-number">04</div>
       <span class="section-tag">Schedule</span>
-      <h2 class="section-heading">이렇게 진행돼요<br><small style="font-size:0.55em; color:var(--muted); font-weight:300;">총 2시간</small></h2>
+      <h2 class="section-heading">이렇게 진행돼요</h2>
+      <p class="section-heading-note">총 2시간</p>
 
       <div class="timeline">
         <div class="timeline-item">
@@ -1020,21 +1036,6 @@
         <div class="timeline-item">
           <div class="timeline-dot-col">
             <div class="timeline-dot">⑤</div>
-            <div class="timeline-connector"></div>
-          </div>
-          <div style="flex:1">
-            <div class="timeline-content">
-              <div class="timeline-step">Step 05</div>
-              <div class="timeline-title">자유 토론</div>
-              <div class="timeline-desc">가장 인상적인 질문으로 전체 토론</div>
-              <div class="timeline-time">15 min</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <div class="timeline-dot-col">
-            <div class="timeline-dot">⑥</div>
           </div>
           <div style="flex:1">
             <div class="timeline-content">
@@ -1054,12 +1055,9 @@
       <span class="section-tag">Drinks</span>
       <h2 class="section-heading">음료 & 분위기</h2>
 
-      <!-- 이미지 자리 -->
+      <!-- 이미지 -->
       <div class="img-placeholder">
-        <div class="img-placeholder-inner medium">
-          <div class="img-placeholder-icon">🥃</div>
-          <div class="img-placeholder-text">하이볼 이미지</div>
-        </div>
+        <img src="image/book-table-hi-long.png" alt="하이볼 이미지" style="max-width:100%; border-radius:4px; display:block;">
       </div>
 
       <div class="drink-row">
@@ -1076,7 +1074,7 @@
           <div class="drink-card-emoji">🫧</div>
           <div class="drink-card-title">술 못 마셔도 괜찮아요</div>
           <div class="drink-card-desc">
-            에이드·스파클링워터 등 논알코올 옵션도 준비되어 있어요.
+            논알코올 옵션도 준비되어 있어요.
             음주 여부와 관계없이 모두가 동등하게 즐길 수 있는 자리입니다.
           </div>
           <div class="drink-card-tag">INCLUSIVE</div>
@@ -1119,7 +1117,7 @@
     <section id="closing">
       <div class="divider-gold"></div>
       <div class="closing-quote">
-        "책 한 권 다 못 읽어도,<br>오늘 밤 우리는 <em>연결됩니다.</em>"
+        "책 한 권 다 못 읽어도,<br>오늘 밤 우리는<br><em>연결됩니다.</em>"
       </div>
       <div class="closing-badge">
         <div>
@@ -1127,10 +1125,10 @@
           <div class="closing-badge-sub">소셜 북클럽 · 합정 · Seoul</div>
         </div>
       </div>
-      <div style="margin-top:40px;">
+<!--     <div style="margin-top:40px;">
         <a href="#" class="cta-btn">신청하기 →</a>
       </div>
-    </section>
+    </section>--> 
 
   </main>
 </div>
