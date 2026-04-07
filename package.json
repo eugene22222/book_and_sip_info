@@ -1,0 +1,23 @@
+{
+  "name": "book_and_sip_info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugene22222/book_and_sip_info.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eugene22222/book_and_sip_info/issues"
+  },
+  "homepage": "https://github.com/eugene22222/book_and_sip_info#readme",
+  "dependencies": {
+    "puppeteer": "^24.40.0"
+  }
+}
